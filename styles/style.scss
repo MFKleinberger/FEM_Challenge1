@@ -1,0 +1,53 @@
+// Variables
+// ## Colors
+$color1: hsl(0, 0%, 100%);
+$color2: hsl(212, 45%, 89%);
+$color3: hsl(220, 15%, 55%);
+$color4: hsl(218, 44%, 22%);
+
+$fontsizep: 15px;
+$fontfamily1: "Outfit", sans-serif;
+$fontweight1: 700;
+$fontweight2: 400;
+
+
+// body {
+//     font-family: "Outfit", sans-serif;
+//     font-optical-sizing: auto;
+//     font-weight: 400;
+//     font-style: normal;
+// }
+
+body{
+    background-color: $color3 !important;
+}
+
+.custom-card {
+    max-width: 400px;
+}
+
+.card{
+    margin: 24px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    padding: 8px;
+    border-radius: 5% !important;
+
+    img{
+        border-radius: 5%;
+    }
+}
+
+.card-body{
+    font-family: $fontfamily1;
+    text-align: center;
+        .card-title{
+            font-weight: $fontweight1;
+        }
+}
+
+.attribution { font-size: 11px; text-align: center;
+    a {
+        color: $color3;
+    }
+}
